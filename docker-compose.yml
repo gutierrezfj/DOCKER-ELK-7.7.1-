@@ -1,6 +1,6 @@
 version: "3"
 services:
-  # Elasticsearch (Cluster - 3 nodes)
+  # Elasticsearch cluster with 3 nodes
   es01:
     build:
       context: elasticsearch/
